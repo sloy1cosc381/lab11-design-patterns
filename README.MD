@@ -17,13 +17,13 @@ to the anonymize method in AnonymizerEngine Class (line 104)
 ```
 
 * How many if/elif branches are used in selecting the operator?
-*Put your answer here*
+For some reason whenever I try to debug operators_factory it tells me that there is "No module named 'presidio_anonymizer'" despite me following where it's pointing and it very much is there.
 
 * What data structure (a Python data type) exactly is used to select the operator?
-*Put your answer here*
+Dictionary
 
 * Explain how "Strategy" design pattern is reflected here.
-
+There are multiple ways of anonymizing text, and the factory allows the selection of which method, or strategy, is going to be used.
 
 ---
 
