@@ -23,7 +23,7 @@ For some reason whenever I try to debug operators_factory it tells me that there
 Dictionary
 
 * Explain how "Strategy" design pattern is reflected here.
-There are multiple ways of anonymizing text, and the factory allows the selection of which method, or strategy, is going to be used.
+There are multiple ways of anonymizing texts, and the factory allows the selection of which method, or strategy, is going to be used.
 
 ---
 
